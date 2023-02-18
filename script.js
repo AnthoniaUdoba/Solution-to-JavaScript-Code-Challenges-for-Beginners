@@ -40,7 +40,7 @@ function ConvertKmToMiles() {
   //multiply the KM value entered by 0.62137 which is = 1KM
   let miles = kilometer * 0.62137;
   //display the result
-  console.log(`${number} Kilometers = ${miles} miles`);
+  console.log(`${kilometer} Kilometers = ${miles} miles`);
 }
 //calling the function
 ConvertKmToMiles();
