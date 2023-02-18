@@ -111,7 +111,8 @@ function removeWhitespace(text) {
   return text.replace(/\s+/g, "");
 }
 //call the function and pass in the string
-removeWhitespace("   A n thon ia!  ");
+removeWhitespace("   A n thon ia  ");
+// Expected output: 'Anthonia'
 
 //Solution 9: Return a Boolean if a number is divisible by 10
 //function to Return a Boolean if a number is divisible by 10
